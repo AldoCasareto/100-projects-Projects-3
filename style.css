@@ -1,0 +1,39 @@
+body {
+    max-height: 100vh;
+    max-width: 100vh;
+}
+
+button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+ 
+}
+
+.all-elements {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+
+.all-elements::before
+{
+    content: url(./Fx8oL.png);
+}
+
+.author {
+    text-align: right;
+    text-decoration: double;
+}
+
+.quote {
+    font-style: italic;
+}
+
+button:hover {
+    color: orange;
+}
